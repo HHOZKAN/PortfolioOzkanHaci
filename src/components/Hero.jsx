@@ -6,7 +6,7 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/api/placeholder/1920/1080')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1920/1080')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
@@ -23,38 +23,39 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 animate-fade-in-up">
-            <span className="block">Développeur</span>
-            <span className="block text-blue-400">Web Créatif</span>
+            <span className="block">Développeur Web</span>
+            <span className="block text-blue-400">en transition vers la Big Data</span>
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-6 sm:mb-8 animate-fade-in-up delay-300 max-w-3xl mx-auto leading-relaxed">
-            Je crée des expériences web modernes et performantes avec une approche centrée sur l'utilisateur
+            Actuellement à la recherche d’une alternance pour un Master en Big Data, 
+            afin de mettre à profit mes compétences en développement web, SQL et analyse de données.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center animate-fade-in-up delay-500">
-            <a
-              href="#projects"
-              onClick={(e) => {
-                e.preventDefault();
-                document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });
-              }}
-              className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 border border-transparent text-base sm:text-lg font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 active:bg-blue-800 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-lg touch-manipulation"
-            >
-              Voir mes projets
-              <svg className="ml-2 w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </a>
-            
             <a
               href="#contact"
               onClick={(e) => {
                 e.preventDefault();
                 document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
               }}
-              className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-white text-base sm:text-lg font-medium rounded-full text-white hover:bg-white hover:text-gray-900 active:bg-gray-100 transition-all duration-300 hover:transform hover:scale-105 touch-manipulation"
+              className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 border border-transparent text-base sm:text-lg font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 active:bg-blue-800 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-lg touch-manipulation"
             >
               Me contacter
+              <svg className="ml-2 w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+            
+            <a
+              href="#cv"
+              onClick={(e) => {
+                e.preventDefault();
+                document.querySelector('#cv').scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-white text-base sm:text-lg font-medium rounded-full text-white hover:bg-white hover:text-gray-900 active:bg-gray-100 transition-all duration-300 hover:transform hover:scale-105 touch-manipulation"
+            >
+              Voir mon CV
             </a>
           </div>
         </div>
