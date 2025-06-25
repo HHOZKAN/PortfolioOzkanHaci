@@ -14,9 +14,9 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div className="relative">
-            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative z-10 rounded-full overflow-hidden shadow-2xl">
               <img
-                src="/api/placeholder/500/600"
+                src="/assets/images/hhozkan.png"
                 alt="Portrait professionnel"
                 className="w-full h-auto object-cover"
               />

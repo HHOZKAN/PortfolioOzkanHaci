@@ -75,7 +75,7 @@ const Skills = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Une expertise technique diversifiée pour créer des solutions web complètes et performantes
+            Du développement front-end au back-end, je maîtrise l’essentiel pour créer des projets web complets.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ const Skills = () => {
           ))}
         </div>
 
- 
+
 
 
       </div>

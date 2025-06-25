@@ -35,7 +35,7 @@ const Experience = () => {
     },
     {
       id: 3,
-      company: 'Banque (non précisée)',
+      company: 'Crédit Agricole',
       position: 'Conseiller de clientèle particuliers',
       period: '2021 - 2023',
       location: 'Macon, France',
@@ -135,15 +135,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-12 sm:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Mon Parcours
-          </h2>
-          <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto mb-6 sm:mb-8"></div>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            Une progression constante à travers des expériences enrichissantes et des projets stimulants
-          </p>
-        </div>
+       
 
         {/* Professional Experience */}
         <div className="mb-12 sm:mb-20">
@@ -181,28 +173,6 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Skills Summary */}
-        <div className="mt-12 sm:mt-16 text-center">
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-6 sm:p-8 inline-block w-full sm:w-auto">
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
-              En résumé
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-center">
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">5+</div>
-                <div className="text-sm sm:text-base text-gray-700 font-medium">Années d'expérience</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">50+</div>
-                <div className="text-sm sm:text-base text-gray-700 font-medium">Projets réalisés</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">15+</div>
-                <div className="text-sm sm:text-base text-gray-700 font-medium">Technologies maîtrisées</div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
