@@ -30,7 +30,7 @@ const About = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Développeur web passionné et futur spécialiste Big Data
+                Développeur passionné et futur spécialiste Big Data
               </h3>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
                 Actuellement en alternance pour valider le titre de Concepteur Développeur d’Applications,
@@ -56,16 +56,17 @@ const About = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
-                  <span className="text-gray-700">Maîtrise de SQL et des données</span>
+                  <span className="text-gray-700">Partage et envie de transmettre</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
-                  <span className="text-gray-700">Curiosité et apprentissage continu</span>
+                  <span className="text-gray-700">Curiosité et veille technologique</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
                   <span className="text-gray-700">Innovation et esprit d’équipe</span>
                 </div>
+                
               </div>
             </div>
 

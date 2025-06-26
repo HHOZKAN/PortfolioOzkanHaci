@@ -121,7 +121,7 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Contactez-moi
+            On s'appelle ?
           </h2>
           <div className="w-16 sm:w-24 h-1 bg-blue-600 mx-auto mb-6 sm:mb-8"></div>
          
@@ -136,8 +136,8 @@ const Contact = () => {
               </h3>
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-6 sm:mb-8">
                 Je suis toujours ouvert aux nouvelles opportunités et collaborations.
-                Que ce soit pour un projet freelance, un poste permanent ou simplement
-                pour échanger, contactez-moi !
+                <br></br>Que ce soit pour un projet freelance, un poste permanent ou simplement
+                pour échanger, mon coeur reste ouvert !
               </p>
             </div>
 

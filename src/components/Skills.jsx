@@ -9,7 +9,6 @@ const Skills = () => {
       skills: [
         { name: 'React', level: 95, iconClass: "devicon-react-original colored" },
         { name: 'JavaScript', level: 90, iconClass: "devicon-javascript-plain colored" },
-        { name: 'PHP', level: 85, iconClass: "devicon-php-plain colored" },
         { name: 'HTML/CSS', level: 95, iconClass: "devicon-html5-plain colored" },
         { name: 'Tailwind CSS', level: 90, iconClass: "devicon-tailwindcss-plain colored" },
         { name: 'Bootstrap', level: 80, iconClass: "devicon-bootstrap-plain colored" },
@@ -75,7 +74,7 @@ const Skills = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Du développement front-end au back-end, je maîtrise l’essentiel pour créer des projets web complets.
+            Du développement front-end au back-end, je maîtrise l’essentiel <br></br>pour créer des projets web complets.
           </p>
         </div>
 

@@ -111,7 +111,7 @@ const Projects = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Découvrez une sélection de mes réalisations récentes
+            Et voici une sélection de mes réalisations récentes !
           </p>
         </div>
 
@@ -147,7 +147,7 @@ const Projects = () => {
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl">
               Je suis toujours intéressé par de nouveaux défis et collaborations. 
-              Discutons de votre projet !
+              <br></br>Discutons de votre projet !
             </p>
             <a
               href="#contact"

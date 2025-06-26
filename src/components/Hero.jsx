@@ -28,8 +28,9 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-6 sm:mb-8 animate-fade-in-up delay-300 max-w-3xl mx-auto leading-relaxed">
-            Actuellement à la recherche d’une alternance pour un Master en Big Data, 
-            afin de mettre à profit mes compétences en développement web, SQL et analyse de données.
+            Chers visiteurs, je vous souhaite la bienvenue sur mon portfolio ! <br></br>Découvrez mon univers, parcourez mes projets, et contactez-moi <br></br>pour qu’on en imagine ensemble !
+
+
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center animate-fade-in-up delay-500">
@@ -48,11 +49,7 @@ const Hero = () => {
             </a>
             
             <a
-              href="#cv"
-              onClick={(e) => {
-                e.preventDefault();
-                document.querySelector('#cv').scrollIntoView({ behavior: 'smooth' });
-              }}
+              href="/assets/images/CVHACIOZKAN.pdf"
               className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-white text-base sm:text-lg font-medium rounded-full text-white hover:bg-white hover:text-gray-900 active:bg-gray-100 transition-all duration-300 hover:transform hover:scale-105 touch-manipulation"
             >
               Voir mon CV

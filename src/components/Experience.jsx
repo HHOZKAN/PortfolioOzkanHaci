@@ -11,7 +11,7 @@ const Experience = () => {
       type: 'Alternance',
       description: 'Cours d’initiation au développement web pour adolescents de quartiers prioritaires et développement d’ateliers robotiques et jeux vidéos.',
       achievements: [
-        'Cours d’initiation au développement web pour jeunes',
+        'Dispense de cours d’initiation au développement web pour jeunes',
         'Acquisition de clients pour ateliers enfants',
         'Conception, développement et maintenance de sites web'
       ],
