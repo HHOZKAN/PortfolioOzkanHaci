@@ -26,13 +26,13 @@ const Hero = () => {
             <span className="block">Développeur Web</span>
             <span className="block text-blue-400">en transition vers la Big Data</span>
           </h1>
-          
+
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-6 sm:mb-8 animate-fade-in-up delay-300 max-w-3xl mx-auto leading-relaxed">
             Chers visiteurs, je vous souhaite la bienvenue sur mon portfolio ! <br></br>Découvrez mon univers, parcourez mes projets, et contactez-moi <br></br>pour qu’on en imagine ensemble !
 
 
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center animate-fade-in-up delay-500">
             <a
               href="#contact"
@@ -47,9 +47,11 @@ const Hero = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
-            
+
             <a
               href="/assets/images/CVHACIOZKAN.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-white text-base sm:text-lg font-medium rounded-full text-white hover:bg-white hover:text-gray-900 active:bg-gray-100 transition-all duration-300 hover:transform hover:scale-105 touch-manipulation"
             >
               Voir mon CV
