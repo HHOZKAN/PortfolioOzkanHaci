@@ -23,6 +23,16 @@ const Projects = () => {
       image: '/assets/images/sqltrain.png',
       liveUrl: 'https://sqltrain.vercel.app/',
       featured: true
+    },
+    {
+      id: 3,
+      title: 'RoadMapDataAnalyst',
+      category: 'frontend',
+      description: 'Application web responsive pour apprendre les bases du métier de data analyst en ligne.',
+      technologies: ['React', 'Tailwind CSS'],
+      image: '/assets/images/sqltrain.png',
+      liveUrl: 'https://data-analyst-gules.vercel.app/',
+      featured: true
     }
 
   ];
