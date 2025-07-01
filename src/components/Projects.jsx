@@ -30,7 +30,7 @@ const Projects = () => {
       category: 'frontend',
       description: 'Application web responsive pour apprendre les bases du métier de data analyst en ligne.',
       technologies: ['React', 'Tailwind CSS'],
-      image: '/assets/images/sqltrain.png',
+      image: '/assets/images/Roadmap.png',
       liveUrl: 'https://data-analyst-gules.vercel.app/',
       featured: true
     }
